@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Microsoft.SharePoint;
 
@@ -9,7 +9,7 @@ public static class SharePointDataHelper
     // Create: 09.12.2014
     // Update: 09.03.2016
 
-    public static static SPListItemCollection GetItems(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listName, SPQuery spQuery)
+    public static SPListItemCollection GetItems(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listName, SPQuery spQuery)
     {
         SPListItemCollection spListItemCollectionResult = null;
         try
@@ -49,7 +49,7 @@ public static class SharePointDataHelper
         return spListItemCollectionResult;
     }
 
-    public static static SPListItemCollection GetItemsByInternalListName(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listInternalName, SPQuery spQuery)
+    public static SPListItemCollection GetItemsByInternalListName(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listInternalName, SPQuery spQuery)
     {
         SPListItemCollection spListItemCollectionResult = null;
         try
