@@ -1,2 +1,2 @@
 # SharePointDataHelper
-Basic CRUD Helper for SharePoint
+Basic CRUD Helper for SharePoint SSOM
