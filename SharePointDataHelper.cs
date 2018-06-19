@@ -1696,7 +1696,7 @@ public static class SharePointDataHelper
         return SPListItemCollectionResult;
     }
 
-    SPFileCollection GetDocumentLibraryFiles(SPListItem spListItem)
+    static SPFileCollection GetDocumentLibraryFiles(SPListItem spListItem)
     {
         SPFileCollection spFileCollection = null;
         try
