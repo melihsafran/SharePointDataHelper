@@ -7,7 +7,7 @@ public static class SharePointDataHelper
     // SharePointDataHelper
     // Melih SAFRAN
     // Create: 09.12.2014
-    // Update: 09.03.2016
+    // Update: 18.07.2018
 
     public static SPListItemCollection GetItems(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listName, SPQuery spQuery)
     {
@@ -16,7 +16,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -56,7 +56,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -97,7 +97,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -138,7 +138,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -179,7 +179,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -220,7 +220,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -261,7 +261,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -324,7 +324,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -386,7 +386,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -447,7 +447,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -508,7 +508,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(spListItem.Web.Site.Url))
                     {
@@ -566,7 +566,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -628,7 +628,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -690,7 +690,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -762,7 +762,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -834,7 +834,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(spListItem.Web.Site.Url))
                     {
@@ -886,7 +886,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -942,7 +942,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -998,7 +998,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1078,7 +1078,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1158,7 +1158,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1234,7 +1234,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1310,7 +1310,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1430,7 +1430,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1623,7 +1623,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1663,7 +1663,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1720,7 +1720,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1770,7 +1770,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1820,7 +1820,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1875,7 +1875,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1930,7 +1930,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -1990,7 +1990,7 @@ public static class SharePointDataHelper
         {
             if (runWithElevatedPrivileges)
             {
-                SPSecurity.RunWithElevatedPrivileges(delegate ()
+                SPSecurity.RunWithElevatedPrivileges(delegate()
                 {
                     using (SPSite spSite = new SPSite(siteUrl))
                     {
@@ -2042,5 +2042,64 @@ public static class SharePointDataHelper
         }
         return listSpFieldChoiceValue;
     }
-}
 
+    public static IEnumerable<SPListItemVersionCollection> GetItemVersions(bool runWithElevatedPrivileges, string siteUrl, string webUrl, string listName, SPQuery spQuery)
+    {
+        List<SPListItemVersionCollection> listSPListItemVersionCollection = null;
+        try
+        {
+            if (runWithElevatedPrivileges)
+            {
+                SPSecurity.RunWithElevatedPrivileges(delegate()
+                {
+                    using (SPSite spSite = new SPSite(siteUrl))
+                    {
+                        using (SPWeb spWeb = webUrl == string.Empty ? spSite.OpenWeb() : spSite.OpenWeb(webUrl))
+                        {
+                            SPList spList = spWeb.Lists[listName];
+
+                            SPListItemCollection spListItemCollectionResult = spQuery == null ? spList.GetItems() : spList.GetItems(spQuery);
+
+                            if (spListItemCollectionResult.Count > 0)
+                            {
+                                listSPListItemVersionCollection = new List<SPListItemVersionCollection>();
+                                foreach (SPListItem spListItem in spListItemCollectionResult)
+                                {
+                                    listSPListItemVersionCollection.Add(spListItem.Versions);
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+            else
+            {
+                using (SPSite spSite = new SPSite(siteUrl))
+                {
+                    using (SPWeb spWeb = webUrl == string.Empty ? spSite.OpenWeb() : spSite.OpenWeb(webUrl))
+                    {
+                        SPList spList = spWeb.Lists[listName];
+
+                        SPListItemCollection spListItemCollectionResult = spQuery == null ? spList.GetItems() : spList.GetItems(spQuery);
+
+                        if (spListItemCollectionResult.Count > 0)
+                        {
+                            listSPListItemVersionCollection = new List<SPListItemVersionCollection>();
+                            foreach (SPListItem spListItem in spListItemCollectionResult)
+                            {
+                                listSPListItemVersionCollection.Add(spListItem.Versions);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        catch
+        {
+            throw;
+        }
+        return listSPListItemVersionCollection;
+    }
+
+
+}
